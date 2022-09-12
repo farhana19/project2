@@ -1,0 +1,117 @@
+Monday Aug 22nd 2022
+------------------------
+Data Types
+----------
+Data Types are going to specify the type of values that stored inside variable
+
+There 2 categories in python data types
+---------------------------------------
+1)Single Value Data Types - only one value
+Numeric Data types
+a)int - Real/whole number without decimal point ex num = 10
+b)float - Real/whole number along with decimal point ex num = 10.50
+c)complex - Real number plus imaginay values ex:10+2j
+Boolean Data Types -True and False
+2)Multi Value Data Types
+string--ex st = 'python'
+List = [1,2,3,4]
+tuple
+set
+dictionary
+
+Type Casting
+---------------
+Type casting is a phenomenon of converting one data type to another data type
+
+syntax = data_type(variable name)
+
+conversion to integer
+---------------------
+float to int -- Possible
+complex to int -- not possible
+string to integer - Possible only when string as numbers
+		    Not possible if string as characters
+List to int - -Not Possible
+
+conversion to float
+---------------------
+float to float -- Possible
+int to float ---Possible
+complex to float-- not possible
+string to float - Possible only when string as numbers
+		    Not possible if string as characters
+List to float- -Not Possible
+
+conversion to complex
+-------------------------
+complex to complex -- Possible
+int to complex---Possible
+float to complex---possible
+string to complex- Possible only when string as numbers
+		    Not possible if string as characters
+List to complex-Not Possible
+
+
+conversion to boolean
+------------------------
+Bool - All Data types - possible to convert
+
+
+Conversion to string
+----------------------
+string to string -possible
+int to string - possible
+float to string - possible
+complex to string - possible
+list to string - possible
+
+
+conversion to list
+---------------------
+list to list - possible
+int to list - not possible
+float to list - not possible
+complex to list - not possible
+string to list - possible
+
+
+Built in  Errors in python
+--------------------------
+1)SyntaxError - Raised when interpreter detects internal errors
+ex = print "hello"
+	if 10 > 15;
+
+2)Index Error - Raised when the index sequence is out of range
+ex = st = 'python'
+ st[7]
+
+3)Name Error = Raised when a variable is not found in local or global scope
+ex = num1 = 3 + num*12
+     day = 'sunday'
+     Day
+     st = false
+
+4)Type Error = Raised when a function or operation is applied to an object of incorrect type
+st = '2' + 2
+
+5)value Error = Raised when function gets an argument of correct type but improper value
+ex :int("python")
+
+6)zero division error -- when second operand of a division is zero
+ex = 150/0
+
+7)Indentation Error ---incorrect indentation
+for i in range(1,11):
+    if i % 2 == 0:
+        print(i)
+     else:
+    print('odd')
+
+
+
+			
+
+
+
+
+
